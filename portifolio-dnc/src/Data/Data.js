@@ -17,7 +17,6 @@ export const blog = [
     },
 ];
 
-import foto from "../../public/pj01.svg"
 
 export const projetos = [
     {
