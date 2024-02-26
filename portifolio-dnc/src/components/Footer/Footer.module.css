@@ -1,0 +1,23 @@
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 142px;
+    margin-bottom: 54px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.footerContainer > div > img{    
+    text-align: center;
+    margin-left: 25px;
+    margin-bottom: 26px;
+    
+    
+}
+.footerContainer > div > p{
+    font-size: 14;
+    color: #21243d;
+}
+
