@@ -41,12 +41,12 @@
                
     }
     .projetosConteudo img{
-        width: 370px;
+        width: 266px;
         margin-top: 10px;
     }
     .projetosDescricao{
         font-size: 25px;
-        width: 370px;
+        width: 266px;
         margin-bottom: 25px;
     }
 }
@@ -56,6 +56,7 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        margin-left: 55px;
 
 
     }
@@ -69,8 +70,8 @@
         width: 350px;
     }
     .projetosDescricao{
-        font-size: 25px;
-        width: 450px;
+        font-size: 18px;
+        width: 350px;
         margin-bottom: 15px;
     }
 }
