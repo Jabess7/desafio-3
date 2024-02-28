@@ -32,9 +32,20 @@
 
 @media(max-width: 425px){
     .mainContainer{
-        margin-left: 100px;
+        margin-left: 40px;
+        width: 325px;
+        margin-top: 160px;
+    }
+    .mainContainer h1{
+        font-size: 30px;
     }
     .mainContainer p{
-        font-size: 30px;
+        font-size: 25px;
+    }
+}
+@media(min-width: 426px) and (max-width: 810px){
+    .mainContainer{
+        margin-left: 50px;
+        width: 320px;
     }
 }

@@ -53,19 +53,20 @@
 @media(max-width: 425px){
     
     .blogContainer{
-        width: 162vw
+        width: 98% ;
     }
     .blogContainer h2{
-        margin-left: 100px;
+        margin-left: 50px;
         font-size: 30px;
     }
     .blogConteudo{
         display: flex;
+        justify-content: center;
         flex-direction: column;
-        margin-left: 100px;
+        margin-left: 15px;
     }
     .blogDescricao{    
-        width: 440px;
+        width: 224px;
     }
 
     .blogDescricao > div > p{
@@ -79,15 +80,17 @@
 }
 @media(min-width: 426px) and (max-width: 810px){
     .blogContainer{
-        width: 162vw
+       width: 100%;
+       margin-left: -50px;
     } 
 
     .blogConteudo{
         display: flex;
         flex-direction: column;
-        margin-left: 100px;}
+        margin-left: 100px;
+    }
     .blogDescricao{    
-            width: 440px;
+            width: 350px;
         }
 
 

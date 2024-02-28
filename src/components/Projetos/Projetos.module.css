@@ -2,7 +2,7 @@
     margin-top: 36px;
     margin-left: 162px;
     color: #21243D;
-    width: 68%;
+    width: 68.5%;
     
 }
 .projetosContainer h2{
@@ -31,34 +31,47 @@
 
 @media(max-width: 425px){
     .projetosContainer{
-        margin-left: 90px;
+        margin-left: 55px;
+        
     }
     .projetosConteudo{
         display: flex;
         flex-direction: column;
+        
                
     }
     .projetosConteudo img{
-        width: 431px;
+        width: 266px;
+        margin-top: 10px;
     }
     .projetosDescricao{
         font-size: 25px;
-        width: 450px
+        width: 266px;
+        margin-bottom: 25px;
     }
 }
 
-@media(min-width: 500px) and (max-width: 810px){
+@media(min-width: 426px) and (max-width: 810px){
+    .projetosContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-left: 55px;
+
+
+    }
     .projetosConteudo{
         display: flex;
         flex-direction: column;
+       
                
     }
     .projetosConteudo img{
-        width: 431px;
+        width: 350px;
     }
     .projetosDescricao{
-        font-size: 25px;
-        width: 450px;
+        font-size: 18px;
+        width: 350px;
         margin-bottom: 15px;
     }
 }
