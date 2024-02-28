@@ -4,6 +4,7 @@
     margin-left: 163px;
 
 }
+    
 .mainContainer h1{
     font-size: 44px;
     font-weight: bold;
@@ -30,6 +31,14 @@
     font-weight: 500;
     cursor: pointer;
 }
+.mainContainer button img{
+    height: 37px;
+    margin-right: 15px;
+    margin-top: 10px;
+    
+}
+
+
 
 @media(max-width: 425px){
     .mainContainer{

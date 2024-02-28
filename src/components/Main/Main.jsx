@@ -1,6 +1,8 @@
 import React from 'react'
 import Style from "./Main.module.css"
+import { FaGithub } from "react-icons/fa6";
 import { useEffect, useState } from 'react';
+
 
 const Main = () => {
   const [text, setText] = useState('');
@@ -10,6 +12,8 @@ const Main = () => {
   const escreve = 150;
   const apagar = 200
   const [delta, setDelta] =  useState(100);
+
+  
   
   
   useEffect(()=>{
@@ -43,10 +47,12 @@ const Main = () => {
         Olá, eu sou {text}
         </h1>
       <p> 
-        Tenho uma paixão profunda por   tecnologia e soluções inovadoras.<br /> Como futuro desenvolvedor Full-stack, estou profundamente
+        Tenho uma paixão profunda por   tecnologia e soluções inovadoras. Como futuro desenvolvedor Full-stack, estou profundamente
         empenhado em aprimorar minhas habilidades e conhecimentos
       </p>
-        <a href="https://github.com/Jabess7" target='_black'><button type="button">Meu Github</button></a>
+        <a href="https://github.com/Jabess7" target='_black'><button type="button"> <span>
+          <FaGithub />
+        </span> Meu GitHub </button></a>
             </div>
   )
 }
