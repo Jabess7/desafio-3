@@ -28,12 +28,13 @@
     border-radius: 5px;
     border: none;
     font-weight: 500;
+    cursor: pointer;
 }
 
 @media(max-width: 425px){
     .mainContainer{
         margin-left: 40px;
-        width: 325px;
+        width: 220px;
         margin-top: 160px;
     }
     .mainContainer h1{

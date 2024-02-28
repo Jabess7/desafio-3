@@ -46,7 +46,7 @@ const Main = () => {
         Tenho uma paixão profunda por   tecnologia e soluções inovadoras.<br /> Como futuro desenvolvedor Full-stack, estou profundamente
         empenhado em aprimorar minhas habilidades e conhecimentos
       </p>
-        <button type="button">Download resumo</button>
+        <a href="https://github.com/Jabess7" target='_black'><button type="button">Meu Github</button></a>
             </div>
   )
 }

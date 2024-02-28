@@ -26,10 +26,10 @@
     .headerContainer{
         display: flex;
         justify-content: space-evenly;
-        margin-left: 74px;
+        margin-left: 50px;
     }
     .headerContainer a{
-        font-size: 30px;
+        font-size: 20px;
     }
 
 
