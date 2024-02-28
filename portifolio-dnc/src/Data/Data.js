@@ -21,7 +21,7 @@ export const blog = [
 export const projetos = [
     {
         id: 5,
-        img: "../../public/pj01.svg",
+        img: "https://a.imagem.app/oyBOPJ.png",
         link: "https://jabess7.github.io/curso-udemy-front-end/JavaScript/18_TODO_LIST/index",
         title: "Lista de tarefas avançado",
         description: "O Todo Avançado é mais do que uma simples lista de tarefas - é uma solução avançada para gestão eficaz do tempo, desenvolvida com expertise em tecnologias web, dessenvolvido com  JavaScript, HTML, CSS.."
@@ -29,7 +29,7 @@ export const projetos = [
     },
     {
         id: 6,
-        img: "../../public/pj02.svg",
+        img: "https://a.imagem.app/oyBphG.png",
         link: "https://jabess7.github.io/curso-udemy-front-end/JavaScript/20_DevNodes/index",
         title: "DevNotes",
         description: "O DevNotes é uma aplicação de notas inovadora e ecologicamente consciente, projetada para promover a sustentabilidade e a consciência ambiental. Envolva-se em um mundo de anotações digitais que não apenas organizam suas ideias, mas também contribuem para a preservação do meio ambiente."
@@ -37,7 +37,7 @@ export const projetos = [
     },
     {
         id: 7,
-        img: "../../public/pj03.svg",
+        img: "https://a.imagem.app/oyG8qm.png",
         link: "https://hilarious-chaja-2cedfb.netlify.app/",
         title: "Landing page arquitetura",
         description: "Nossa landing page é um reflexo tangível da nossa jornada de aprendizado, incorporando habilidades recém-adquiridas para dar vida a um design coeso e envolvente. Cada linha de código representa não apenas a execução técnica, mas também o entendimento profundo dos princípios fundamentais que fundamentam o desenvolvimento web."
