@@ -2,4 +2,4 @@
 <hr>
 
 link do site disponibilizado: https://preeminent-squirrel-e34556.netlify.app/ <br/>
-<span style="text-align: center;">![alt text](image.png)</span>
+<span >![alt text](image.png)</span>
