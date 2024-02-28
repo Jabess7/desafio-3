@@ -46,6 +46,6 @@
 @media(min-width: 426px) and (max-width: 810px){
     .mainContainer{
         margin-left: 50px;
-        width: 400px;
+        width: 320px;
     }
 }
