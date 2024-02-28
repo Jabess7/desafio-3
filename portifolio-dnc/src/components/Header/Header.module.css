@@ -26,7 +26,7 @@
     .headerContainer{
         display: flex;
         justify-content: space-evenly;
-        margin-left: 100px;
+        margin-left: 200px;
     }
     .headerContainer a{
         font-size: 30px;

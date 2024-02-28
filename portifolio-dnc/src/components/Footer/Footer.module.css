@@ -21,3 +21,10 @@
     color: #21243d;
 }
 
+@media(max-width: 425px){
+    .footerContainer{
+        margin-left: 70px;
+        }
+
+}
+
