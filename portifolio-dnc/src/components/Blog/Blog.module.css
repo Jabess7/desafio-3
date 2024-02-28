@@ -56,14 +56,14 @@
         width: 98% ;
     }
     .blogContainer h2{
-        margin-left: 5px;
+        margin-left: 50px;
         font-size: 30px;
     }
     .blogConteudo{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin-left: 0px;
+        margin-left: 50px;
     }
     .blogDescricao{    
         width: 224px;
