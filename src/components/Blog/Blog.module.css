@@ -1,0 +1,94 @@
+.blogContainer{
+    width: 94%;
+    background-color: #EDF7FA ; 
+    display: flex;
+    flex-direction: column;
+    margin-top: 88px;
+    padding-bottom: 40px;
+}
+.blogContainer h2{
+    margin-left: 163px;
+    margin-top: 27px;
+    font-size: 22px;
+    color: #21243D;
+    font-weight: 400;
+}
+.blogConteudo{
+    display: flex;
+    gap: 115px;
+    margin-left: 163px;
+    margin-top: 25px; 
+    
+}
+.blogDescricao{    
+    width: 30%;
+       
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 6px;
+    color: #21243D;
+    text-align:justify;
+}
+
+.blogDescricao h3{
+    font-size: 26px;
+    font-weight: bold;
+    color: #21243D;
+    margin-bottom: 37px;
+
+
+}
+
+.blogDescricao >div{
+    display: flex;
+    gap: 44px;
+    margin-bottom: 24px;
+}
+
+.blogDescricao > div > p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media(max-width: 425px){
+    
+    .blogContainer{
+        width: 162vw
+    }
+    .blogContainer h2{
+        margin-left: 100px;
+        font-size: 30px;
+    }
+    .blogConteudo{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+    .blogDescricao{    
+        width: 440px;
+    }
+
+    .blogDescricao > div > p{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .blogDescricao p{
+        font-size: 25px;
+        
+    }
+}
+@media(min-width: 426px) and (max-width: 810px){
+    .blogContainer{
+        width: 162vw
+    } 
+
+    .blogConteudo{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;}
+    .blogDescricao{    
+            width: 440px;
+        }
+
+
+}
