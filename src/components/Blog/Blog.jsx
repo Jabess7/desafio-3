@@ -4,7 +4,7 @@ import {blog} from "../../Data/Data"
 
 function Blog() {
   return (
-    <div className={Style.blogContainer} id='blog'>
+    <div className={Style.blogContainer} id='blog'> 
        <div>
          <h2>Blog</h2>
         </div>
